@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br">
+<!-- Início do documento HTML e definição do idioma como inglês -->
+
+<head>
+  <!-- Cabeçalho do documento, contém metadados e links para recursos externos -->
+  <meta charset="UTF-8" />
+  <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Define as configurações de viewport para responsividade -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Define a compatibilidade com versões anteriores do Internet Explorer -->
+
+  <title>Romulo Castro | Backend Developer</title>
+  <!-- Título da página que aparece na aba do navegador -->
+  <meta name="Descrição"
+    content="Um Desenvolvedor Backend focado em construir a lógica, a estrutura e a eficiência de sistemas e aplicações, garantindo desempenho, segurança e escalabilidade para o sucesso do produto" />
+  <!-- Descrição da página, utilizada por motores de busca -->
+  <meta name="autor" content="Romulo Castro" />
+  <!-- Autor da página -->
+  <meta name="google-site-verification" content="wX2xdkxqjrC4rA2EM-9bbaVpiEEFG8ae5azgeZDd-oo" />
+  <!-- Verificação do site pelo Google -->
+
+  <meta property="og:title" content="Romulo Castro | Backend Developer" />
+  <!-- Título para compartilhamento em redes sociais -->
+  <meta property="og:site_name" content="Romulo Castro Portfolio Website" />
+  <!-- Nome do site para redes sociais -->
+  <meta property="og:url" content="https://www.romulocastro.com/" />
+  <!-- URL do site para redes sociais -->
+  <meta property="og:description"
+    content="Um Desenvolvedor Backend focado em construir a lógica, a estrutura e a eficiência de sistemas e aplicações, garantindo desempenho, segurança e escalabilidade para o sucesso do produto" />
+  <!-- Descrição para compartilhamento em redes sociais -->
+  <meta property="og:type" content="website" />
+  <!-- Tipo de conteúdo para redes sociais -->
+
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Link para o arquivo de estilo CSS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <!-- Pré-conexão para otimizar carregamento de fontes do Google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Pré-conexão para otimizar carregamento de fontes do Google com CORS habilitado -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- Link para importar a fonte "Source Sans Pro" do Google Fonts -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script>
+  <!-- Script assíncrono para o Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-QD9ESD1D9K");
+  </script>
+  <!-- Script de configuração do Google Analytics -->
+</head>
+
+<body>
+  <!-- Corpo do documento, contém o conteúdo visível da página -->
+  <header class="header">
+    <!-- Cabeçalho da página -->
+    <div class="header__content">
+      <!-- Conteúdo do cabeçalho -->
+      <div class="header__logo-container">
+        <!-- Container do logo -->
+        <div class="header__logo-img-cont">
+          <!-- Container da imagem do logo -->
+          <img src="./assets/jpeg/WhatsApp Image 2025-01-29 at 10.13.01.jpeg" alt="Romulo Castro Logo Image" class="header__logo-img" />
+          <!-- Imagem do logo -->
+        </div>
+        <span class="header__logo-sub">Romulo de Castro</span>
+        <!-- Subtítulo do logo -->
+      </div>
+      <div class="header__main">
+        <!-- Principal área do cabeçalho -->
+        <ul class="header__links">
+          <!-- Lista de links de navegação -->
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link"> Inicio </a>
+            <!-- Link para a página inicial -->
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link">Sobre </a>
+            <!-- Link para a seção "Sobre" -->
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link"> Projetos </a>
+            <!-- Link para a seção "Projetos" -->
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#experience" class="header__link">Experiência</a>
+            <!-- Link para a seção "Experiência" -->
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contato </a>
+            <!-- Link para a seção "Contato" -->
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <!-- Container para o menu de hambúrguer -->
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <!-- Ícone do menu de hambúrguer -->
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+          <!-- Ícone para fechar o menu de hambúrguer (inicialmente escondido) -->
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <!-- Menu de navegação para telas pequenas -->
+      <div class="header__sm-menu-content">
+        <!-- Conteúdo do menu pequeno -->
+        <ul class="header__sm-menu-links">
+          <!-- Lista de links do menu pequeno -->
+          <li class="header__sm-menu-link">
+            <a href="./"> Inicio </a>
+            <!-- Link para a página inicial -->
+          </li>
+  
+          <li class="header__sm-menu-link">
+            <a href="./#about"> Sobre </a>
+            <!-- Link para a seção "Sobre" -->
+          </li>
+  
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projetos </a>
+            <!-- Link para a seção "Projetos" -->
+          </li>
+  
+          <li class="header__sm-menu-link">
+            <a href="./#experience"> Experiência </a>
+            <!-- Link para a seção "Experiência" -->
+          </li>
+  
+          <li class="header__sm-menu-link">
+            <a href="./#contact"> Contato </a>
+            <!-- Link para a seção "Contato" -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  <section class="home-hero">
+    <!-- Seção principal do herói -->
+    <div class="home-hero__content">
+      <!-- Conteúdo do herói -->
+      <h1 class="heading-primary">Olá,eu sou Romulo de Castro</h1>
+      <!-- Título principal -->
+      <div class="home-hero__info">
+        <!-- Informações do herói -->
+        <p class="text-primary">
+          Um Desenvolvedor Backend orientado a resultados, construindo e gerenciando sistemas e aplicações que garantem o sucesso do produto como um todo
+        </p>
+        <!-- Parágrafo com informações do herói -->
+      </div>
+      <div class="home-hero__cta">
+        <!-- Botão de chamada para ação -->
+        <a href="./#projects" class="btn btn--bg">Projetos</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <!-- Links para redes sociais -->
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/romulo-de-castro-010203034384382423423/" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank">
+          <img src="./assets/svg/linkedin-dark.svg" alt="Romulo Castro LinkedIn Profile"
+            class="home-hero__social-icon" />
+          <!-- Ícone do LinkedIn -->
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/RomulooCastro" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <img src="./assets/svg/github-dark.svg" alt="Romulo Castro GitHub Profile" class="home-hero__social-icon" />
+          <!-- Ícone do GitHub -->
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://wa.me/5585987716463" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          rel="noreferrer" target="_blank">
+          <img src="./assets/svg/whatsapp-dark.svg" alt="Romulo Castro WhatsApp" class="home-hero__social-icon" />
+          <!-- Ícone do WhatsApp -->
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <!-- Container para o ícone de rolagem do mouse -->
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <!-- Seção "Sobre" -->
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Sobre mim</span>
+        <span class="heading-sec__sub">
+          Aqui você encontrará mais informações sobre mim, o que faço e meus
+          habilidades atuais principalmente em termos de programação e tecnologia
+        </span>
+      </h2>
+      <!-- Título e subtítulo da seção "Sobre" -->
+      <div class="about__content">
+        <!-- Conteúdo da seção "Sobre" -->
+        <div class="about__content-main">
+          <!-- Conteúdo principal da seção "Sobre" -->
+          <h3 class="about__content-title">Venha me Conhecer!</h3>
+          <!-- Título do conteúdo principal -->
+          <div class="about__content-details">
+            <!-- Detalhes do conteúdo principal -->
+            <p class="about__content-details-para">
+              Sou um <strong>Desenvolvedor Backend</strong>  formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, focado em desenvolver e manter sistemas robustos e eficientes, garantindo alta performance e confiabilidade. Veja alguns dos meus projetos na seção <strong>Projetos</strong>.
+            </p>
+            <p class="about__content-details-para">
+              Também gosto de explorar e aprender novas tecnologias, sempre buscando aplicá-las na prática para aprimorar minhas habilidades e criar soluções mais eficientes no <strong>Desenvolvimento Backend</strong>. Sinta-se à vontade para se conectar comigo no 
+              <a rel="noreferrer" href="https://linkedin.com/in/romulocastro" target="_blank">LinkedIn</a>.
+            </p>
+            <p class="about__content-details-para">
+              Estou aberto a oportunidades de <strong> Trabalho </strong> onde eu possa contribuir, aprender e crescer. Se você tiver uma boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em <strong>entrar em contato</strong> comigo.
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a>
+          <!-- Botão para a seção de contato -->
+        </div>
+        <div class="about__content-skills">
+          <!-- Seção de habilidades -->
+          <h3 class="about__content-title">Minhas Habilidades</h3>
+          <!-- Título da seção de habilidades -->
+          <div class="skills">
+            <!-- Lista de habilidades -->
+            <div class="skills__skill">NodeJs</div>
+            <div class="skills__skill">RESTful API</div>
+            <div class="skills__skill">.NET</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React</div>
+            <div class="skills__skill">Outsystems</div>
+            <div class="skills__skill">PHP</div>
+            <div class="skills__skill">Laravel</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">GitHub</div>
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">SQl</div>
+            <!-- Habilidades listadas -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience" class="experience sec-pad">
+    <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main">Experiências Profissionais</span>
+            <span class="heading-sec__sub">
+                Aqui você encontrará informações sobre minhas experiências profissionais anteriores.
+            </span>
+        </h2>
+
+        <div class="experience__content">
+            <div class="experience__item">
+                <div class="experience__box">
+                    <h3 class="experience__title">Secretaria Municipal de Educação, SME, Maracanaú</h3>
+                    <p class="experience__role">Desenvolvedor de Software (Estágio)</p>
+                    <p class="experience__duration">05/2023 - 01/2024</p>
+                    <ul class="experience__details">
+                        <li>Auxiliei na manutenção e no desenvolvimento de recursos para aplicativos web usando PHP/Laravel com JavaScript/NodeJs, HTML e CSS.</li>
+                        <li>Trabalhei em tarefas de codificação, depuração e teste de novos recursos.</li>
+                        <li>Colaborei com a equipe de desenvolvimento para entender os requisitos dos projetos e cumprir os prazos estabelecidos.</li>
+                        <li>Ajudei na documentação de código e processos para facilitar a manutenção futura.</li>
+                        <li>Participei de reuniões de equipe para discussão de projetos e compartilhamento de conhecimentos.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience__item">
+                <div class="experience__box">
+                    <h3 class="experience__title">Ceramica Brasileira CERBRAS</h3>
+                    <p class="experience__role">Desenvolvedor de Software (Estágio)</p>
+                    <p class="experience__duration">02/2024 - 08/2024</p>
+                    <ul class="experience__details">
+                        <li>Colaborei no desenvolvimento de código-fonte eficiente e funcional, participando ativamente na implementação de novas funcionalidades e melhorias nos sistemas existentes.</li>
+                        <li>Auxiliei na compreensão e documentação de requisitos de software, participando de reuniões para esclarecer dúvidas e alinhar expectativas com usuários e demais membros da equipe.</li>
+                        <li>Apoiei os processos de teste de software, identificando e relatando bugs, e colaborei na depuração de problemas e na implementação de soluções.</li>
+                        <li>Contribuí para a criação e manutenção da documentação técnica necessária para o desenvolvimento e manutenção de sistemas.</li>
+                        <li>Criei e fiz manutenção de APIs NodeJs utilizando frameworks como Express.js, com foco em performance e escalabilidade.</li>
+                        <li>Utilizei Node.Js e C# como principais linguagens de programação para projetos backend e OutSystems para Desenvolvimento Web.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience__item">
+                <div class="experience__box">
+                    <h3 class="experience__title">TL Auto Center</h3>
+                    <p class="experience__role">Assistente de T.I (foco em Desenvolvimento)</p>
+                    <p class="experience__duration">09/2024 - 12/2024</p>
+                    <ul class="experience__details">
+                        <li>Desenvolvi um Sistema de Monitoramento de Ordens de Serviço que tem como objetivo fornecer aos clientes uma forma prática e eficiente de acompanhar o progresso de seus serviços na oficina em tempo real, utilizando Node.js (backend), WebSockets (para atualizações em tempo real), MongoDB (banco de dados), React (frontend).</li>
+                        <li>Escrita de código eficiente e aplicação de testes unitários para validar a funcionalidade das APIs.</li>
+                        <li>Desenvolvimento de endpoints para gerar relatórios detalhados sobre serviços realizados, como modelo de veículo mais atendido e organização semanal para pagamentos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section id="projects" class="projects sec-pad">
+    <!-- Seção "Projetos" -->
+    <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="heading-sec__main">Projetos</span>
+            <span class="heading-sec__sub">
+                Aqui você encontrará alguns dos meus projetos pessoais disponíveis no GitHub.
+            </span>
+        </h2>
+        <!-- Título e subtítulo da seção "Projetos" -->
+
+        <div class="projects__content">
+            <!-- Conteúdo da seção "Projetos" -->
+            <div class="projects__row">
+                <!-- Primeira linha de projetos -->
+                <div class="projects__row-img-cont">
+                    <!-- Container da imagem do projeto -->
+                    <img src="./assets/jpeg/Captura de tela 2025-01-30 134105.png" alt="Screenshot do Sistema de Estoque" class="projects__row-img"
+                        loading="lazy" />
+                    <!-- Imagem do projeto -->
+                </div>
+                <div class="projects__row-content">
+                    <!-- Conteúdo da primeira linha de projetos -->
+                    <h3 class="projects__row-content-title">Sistema de Estoque</h3>
+                    <!-- Título do projeto -->
+                    <p class="projects__row-content-desc">
+                        Sistema de gestão de estoque desenvolvido para facilitar o controle de produtos, entradas e saídas, e geração de relatórios.
+                    </p>
+                    <!-- Descrição do projeto -->
+                    <a class='btn btn--med btn--theme dynamicBgClr' href='https://github.com/RomulooCastro/SistemaEstoque' target='_blank'>Ver Repositório</a>
+                    <!-- Link para o repositório do projeto -->
+                </div>
+            </div>
+            <div class="projects__row">
+                <!-- Segunda linha de projetos -->
+                <div class="projects__row-img-cont">
+                    <img src="./assets/jpeg/Captura de tela 2025-01-30 132544.png" alt="Screenshot do Encurtador de URL" class="projects__row-img"
+                        loading="lazy" />
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Encurtador de URL</h3>
+                    <p class="projects__row-content-desc">
+                        Ferramenta para encurtamento de URLs, permitindo compartilhar links de forma mais prática e amigável.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr' href='https://github.com/RomulooCastro/Encurtador_URL' target='_blank'>Ver Repositório</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact sec-pad dynamicBg">
+  <!-- Seção "Contato" -->
+  <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+              Sinta-se à vontade para entrar em contato comigo através do LinkedIn, WhatsApp ou email.
+          </span>
+      </h2>
+      <!-- Título e subtítulo da seção "Contato" -->
+      <div class="contact__links-container">
+          <!-- Container dos links de contato -->
+          <div class="contact__link">
+              <a href="https://www.linkedin.com/in/romulo-de-castro-010203034384382423423/" target="_blank" class="contact__social-link">
+                  <img src="./assets/jpeg/linkedin-icon-2-logo-svgrepo-com.svg" alt="Romulo Castro LinkedIn Profile" class="contact__social-icon" />
+                  <!-- Ícone do LinkedIn -->
+                  <span>LinkedIn</span>
+              </a>
+          </div>
+          <div class="contact__link">
+              <a href="https://wa.me/5585987716463" target="_blank" class="contact__social-link">
+                  <img src="./assets/png/whatsapp-logo.svg" alt="Romulo Castro WhatsApp" class="contact__social-icon" />
+                  <!-- Ícone do WhatsApp -->
+                  <span>WhatsApp</span>
+              </a>
+          </div>
+          <div class="contact__link">
+              <a href="mailto:castroromulo82@gmail.com?subject=Contato%20Profissional&body=Olá%20Romulo,%0D%0A%0D%0AEstou%20entrando%20em%20contato%20para..." target="_blank" class="contact__social-link">
+                  <img src="./assets/jpeg/gmail-icon-logo-svgrepo-com.svg" alt="Romulo Castro Email" class="contact__social-icon" />
+                  <!-- Ícone do Email -->
+                  <span>Email</span>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+  <footer class="main-footer">
+    <!-- Rodapé principal -->
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <!-- Parte superior do rodapé -->
+        <div class="main-footer__row main-footer__row-1">
+          <!-- Primeira linha do rodapé -->
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <!-- Título da seção de redes sociais -->
+          <div class="main-footer__social-cont">
+            <!-- Container dos ícones de redes sociais -->
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/romulo-de-castro-010203034384382423423/">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="Romulo Castro LinkedIn Profile" />
+              <!-- Ícone do LinkedIn -->
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/RomulooCastro">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="Romulo Castro GitHub Profile" />
+              <!-- Ícone do GitHub -->
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://wa.me/5585987716463">
+              <img class="main-footer__icon" src="./assets/png/whatsapp-logo.svg" alt="Romulo Castro WhatsApp" />
+              <!-- Ícone do WhatsApp -->
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <!-- Segunda linha do rodapé -->
+          <h2 class="heading heading-sm text-lt">Romulo Castro</h2>
+          <!-- Título com o nome -->
+          <p class="main-footer__short-desc">
+            Desenvolvedor Backend | Construindo soluções eficientes e escaláveis para sistemas de alto desempenho. 🚀
+          </p>
+          <!-- Descrição curta -->
+        </div>
+      </div>
+
+      <div class="main-footer__lower">
+        <!-- Parte inferior do rodapé -->
+        &copy; Copyright
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <!-- Exibe o ano atual -->
+        . Feito por
+        <a>Romulo de Castro</a>
+        <!-- Link para o site do autor -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+  <!-- Link para o arquivo de script index.js -->
+</body>
+
+</html>
+<!-- Fim do documento HTML -->
